@@ -50,7 +50,7 @@ main {
     align-items: center;
     width: 100%;
     height: 100%;
-    background-image: url(/imagens/big_cellucare.png);
+    background-image: url(/imagens/big.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -113,7 +113,7 @@ footer {
     margin-bottom: 30px;
 }
 .div_footer_one {
-    display: none;
+    display: flex;
 }
 footer p {
     padding: 20px;
@@ -148,7 +148,7 @@ footer h4 a {
         align-items: center;
         width: 100%;
         height: 800px;
-        background-image: url(/imagens/mobile_cellucare.png);
+        background-image: url(/imagens/mobile.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -212,7 +212,7 @@ footer h4 a {
         align-items: center;
         width: 100%;
         height: 100%;
-        background-image: url(/imagens/tablet_cellucare.png);
+        background-image: url(/imagens/tablet.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -256,9 +256,6 @@ footer h4 a {
     .container_footer {
         font-size: 1em;
         height: 150px;
-    }
-    .div_footer_one {
-        display: none;
     }
     h4 {
         padding: 12px;
